@@ -1,5 +1,7 @@
-print("Hello World!")
-print("Hello 2")
-print("Hello 3")
-print("Hello 4")
-print("A new feature branch has been created")
+import numpy as np
+
+A = np.array([[1,2],[3,4]])
+b = np.array([5,3])
+
+print(A*b)
+
